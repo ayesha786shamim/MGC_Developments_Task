@@ -197,7 +197,6 @@ Backend API: `POST /api/ask`, `POST /api/score`
 ```text
 docs/                 brochure, price list, booking FAQ
 leads.csv
-BRIEF.md
 .env.example
 README.md
 
