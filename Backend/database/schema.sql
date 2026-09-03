@@ -25,7 +25,3 @@ CREATE TABLE leads (
     crm_record_hash INTEGER UNIQUE NOT NULL,
     converted INTEGER DEFAULT 0
 );
-
--- Speeds up filtering by source and converted.
-CREATE INDEX idx_source ON leads (source);
-CREATE INDEX idx_converted ON leads (converted);
